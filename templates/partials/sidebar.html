@@ -1,0 +1,15 @@
+<aside class="sidebar sidebar-el" id="sidebar">
+  <div class="sidebar-brand">
+    <a href="/dashboard">MicroSaas</a>
+  </div>
+  {% include "partials/menu.html" %}
+</aside>
+
+<button
+  aria-label="backdrop"
+  id="sidebar-backdrop"
+  class="sidebar-el sidebar-backdrop"
+  hx-get="javascript:void(0);"
+  hx-trigger="click"
+  hx-on="click: document.querySelectorAll('.sidebar-el').forEach(el => el.classList.toggle('open'));"
+></button>

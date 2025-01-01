@@ -1,5 +1,11 @@
 {% extends "layouts/root.html" %}
 
 {% block view %}
-{% block content %}{% endblock %}
+{% include "partials/sidebar.html" %}
+<div class="wrapper">
+    {% include "partials/header.html" %}
+    <main class="p-4 md:p-6">
+        {% block content %}{% endblock %}
+    </main>
+</div>
 {% endblock %}
