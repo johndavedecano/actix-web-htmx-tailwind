@@ -1,0 +1,31 @@
+.btn {
+    @apply py-2 px-4 rounded inline-flex items-center justify-center border-2;
+}
+
+.btn-primary {
+    @apply bg-primary text-white border-primary hover:bg-primary-dark hover:border-primary-dark;
+}
+
+.btn-primary-outlined {
+    @apply text-primary hover:bg-primary hover:text-white border-primary hover:border-primary;
+}
+
+.btn-full {
+    @apply w-full ;
+}
+
+.btn-google {
+    @apply hover:bg-slate-100;
+}
+
+.btn-google div {
+    @apply flex gap-2;
+}
+
+.btn-google svg {
+    @apply w-6 h-6;
+}
+
+.form-input {
+    @apply border p-2.5 rounded focus:ring-2 focus:outline-none focus:ring-primary;
+}
