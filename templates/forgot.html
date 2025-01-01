@@ -1,0 +1,31 @@
+{% extends "layouts/bare.html" %} 
+{% block title %}Home Page{% endblock %} 
+{% block content %}
+<div class="w-full h-screen flex items-center justify-center bg-slate-100">
+  <div class="bg-white mx-auto w-full md:w-[500px] rounded shadow-xl">
+    <div class="px-6 md:px-8 py-6 md:py-8">
+      <h1 class="text-2xl font-bold">Forgot Password</h1>
+      <p class="mt-2 mb-6">Lost your password? We got you!</p>
+      <form action="/dashboard">
+        <div class="flex flex-col mb-6">
+          <div class="flex flex-col gap-1 mb-4">
+            <label for="email" class="text-gray-500">Email address</label>
+            <input
+              type="email"
+              class="form-input"
+              id="email"
+              placeholder="e.g johndoe@domain.com"
+            />
+          </div>
+          <button class="btn btn-primary btn-full mb-4">Submit</button>
+        </div>
+        <div class="flex items-center">
+          <!-- <a href="/register" class="text-primary">Create an account</a> -->
+          <div class="flex-1"></div>
+          <a href="/login" class="text-primary">Back to login</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
