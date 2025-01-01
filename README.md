@@ -1,8 +1,4 @@
-Here's a more structured and detailed version of your documentation for the `actixhtmx` project:
-
----
-
-# actixhtmx
+# Actix-Web HTMX Tailwind Vite Boilerplate
 
 `actixhtmx` is a project initialized with Bun, a fast all-in-one JavaScript runtime. Below are instructions for setting up the project dependencies and running the server.
 
