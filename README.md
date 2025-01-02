@@ -2,6 +2,14 @@
 
 `actixhtmx` is a project initialized with Bun, a fast all-in-one JavaScript runtime. Below are instructions for setting up the project dependencies and running the server.
 
+## Screenshots
+
+![Register](https://raw.github.com/johndavedecano/actix-web-htmx-tailwind/main/register.png)
+![Login](https://raw.github.com/johndavedecano/actix-web-htmx-tailwind/main/login.png)
+![Forgot](https://raw.github.com/johndavedecano/actix-web-htmx-tailwind/main/forgot.png)
+![Reset](https://raw.github.com/johndavedecano/actix-web-htmx-tailwind/main/reset.png)
+![Dashboard](https://raw.github.com/johndavedecano/actix-web-htmx-tailwind/main/dashboard.png)
+
 ## Prerequisites
 
 To work with this project, ensure you have the following tools installed on your system:
