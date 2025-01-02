@@ -1,6 +1,18 @@
-# Actix-Web HTMX Tailwind Vite Boilerplate
+# Actix-Web HTMX Tailwind Vite Micro-SaaS Boilerplate
 
-`actixhtmx` is a project initialized with Bun, a fast all-in-one JavaScript runtime. Below are instructions for setting up the project dependencies and running the server.
+A micro-SaaS boilerplate built with modern, powerful tools for rapid development and seamless scalability. This project leverages:  
+- **Bun**: A fast, all-in-one JavaScript runtime that combines package management, bundling, and server-side rendering with unparalleled speed and simplicity.  
+- **Vite**: A lightning-fast development server and build tool for a streamlined frontend workflow, enabling instant hot module replacement and optimized production builds.  
+- **Tailwind CSS**: A utility-first CSS framework that empowers you to design responsive, modern user interfaces with ease and efficiency.  
+- **HTMX**: A hypermedia extension library that enhances user interactions without the overhead of heavy JavaScript frameworks, enabling server-driven UI updates.  
+- **Actix Web**: A powerful and performant Rust-based web framework that delivers high-speed, reliable backends for modern web applications.  
+
+This boilerplate offers a robust foundation for creating and scaling micro-SaaS applications, ensuring a cohesive development experience from front to back.  
+
+**Key Benefits**  
+- **Efficiency**: Develop faster with Bun and Vite, which simplify common tasks and speed up builds.  
+- **Simplified Interactions**: HTMX allows for dynamic user interactions without relying on heavy JavaScript libraries.  
+- **Performance**: Actix Web ensures backends are both fast and reliable, making it ideal for scalable applications.  
 
 ## Screenshots
 
